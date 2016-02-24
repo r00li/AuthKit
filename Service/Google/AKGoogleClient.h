@@ -2,7 +2,7 @@
 // Created by Dal Rupnik on 23/03/15.
 //
 
-#import <GooglePlus.h>
+#import <GooglePlus/GooglePlus.h>
 #import <GoogleSignIn/GoogleSignIn.h>
 
 #import "AKOAuth.h"
