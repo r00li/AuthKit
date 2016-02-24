@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   s.subspec 'Google' do |ss|
     ss.source_files = 'Service/Google/*.{h,m}'
 
-    ss.dependency 'googleplus-ios-sdk'
+    ss.dependency 'googleplus-ios-sdk', '1.7.1'
     ss.dependency 'AuthKit/Core'
     ss.dependency 'AuthKit/OAuth'
   end
